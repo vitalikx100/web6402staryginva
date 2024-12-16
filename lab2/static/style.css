@@ -1,0 +1,34 @@
+.Owner{
+    color: gray;
+}
+
+nav h2 {
+    display: inline-block;
+    margin: 15px;
+}
+
+.actor-photo {
+    width: 400px; 
+    height: 300px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+.KeanuReeves-table th, .KeanuReeves-table td {
+    text-align: left;
+}
+
+.JasonStatham-table th, .JasonStatham-table td {
+    text-align: center;
+}
+
+.TomCruise-table th, .TomCruise-table td {
+    text-align: right;
+}
