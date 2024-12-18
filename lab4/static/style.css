@@ -1,0 +1,174 @@
+@keyframes appearance {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.owner{ 
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: appearance 1s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+.overview {
+    text-align: center; 
+    opacity: 0;
+    transform: translateY(20px);
+    animation: appearance 1s ease-out forwards;
+    animation-delay: 0.7s;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 10px 0; 
+    background-color: #f3f3f3; 
+}
+  
+.flex-nav h2 {
+    margin: 0;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: appearance 0.5s ease-out forwards;
+    animation-delay: 0.2s;
+}
+  
+.flex-nav a {
+    text-decoration: none; 
+    color: black; 
+    transition: color 0.3s; 
+}
+  
+.flex-nav a:hover {
+    color: #007BFF;
+}
+
+.actor-photo {
+    width: 100%;
+    max-width: 400px; 
+}
+
+table {
+    margin-top: 20px;
+}
+
+.KeanuReeves-table th, .KeanuReeves-table td {
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 8px
+}
+
+.JasonStatham-table th, .JasonStatham-table td {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 8px
+}
+
+.TomCruise-table th, .TomCruise-table td {
+    border: 1px solid #ccc;
+    padding: 8px
+}
+
+.KeanuReeves-table th {
+    background-color: #f2f2f2;
+}
+
+.JasonStatham-table th {
+    background-color: #f2f2f2;
+}
+
+.TomCruise-table th {
+    background-color: #f2f2f2;
+}
+
+.KeanuReeves-table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+.JasonStatham-table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+.TomCruise-table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+
+.grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+}
+  
+.grid-item {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    place-items: center;
+}
+
+.flex-main {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin: 20px; 
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.actor-info {
+    flex: 1; 
+    margin-right: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.actor-films {
+    flex: 1; 
+}
+
+.user-form {
+    display: flex;
+    margin: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: appearance 1s ease-out forwards;
+    animation-delay: 0.7s;
+}
+
+#users-table {
+    width: 50%; 
+    border-collapse: collapse; 
+}
+
+#users-table th, #users-table td  {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 8px
+}
+
+#users-table th {
+    background-color: #f2f2f2;
+}
+
+.contact-message {
+    margin: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: appearance 1s ease-out forwards;
+    animation-delay: 0.7s;
+}
