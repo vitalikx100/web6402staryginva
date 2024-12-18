@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "Ваня",
+      "email": "vanya@mail.ru",
+      "id": "5f5e"
+    },
+    {
+      "name": "Petya",
+      "email": "petya@gmail.com",
+      "id": "76b1"
+    },
+    {
+      "id": "07c0",
+      "name": "Виталий",
+      "email": "vitalikstarigin@mail.ru"
+    },
+    {
+      "id": "e304",
+      "name": "Олег",
+      "email": "olegpopov@inbox.com"
+    },
+    {
+      "id": "596c",
+      "name": "Kolya",
+      "email": "kolya@mail.ru"
+    }
+  ]
+}
